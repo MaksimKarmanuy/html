@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Одностроковий сайт</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .header {
+      font-size: 36px;
+      font-weight: bold;
+      margin-top: 100px;
+    }
+
+    h1 {
+      padding: 30px;
+      color: Aqua;
+    }
+
+    .txt {
+      text-align: left;
+      margin-top: 100px;
+    }
+
+    .moving-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: red;
+      white-space: nowrap;
+      position: absolute;
+      animation: moveText 6s linear infinite;
+    }
+
+    @keyframes moveText {
+      0% {
+        left: 100%;
+      }
+
+      100% {
+        left: -100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">Інформатика</div>
+  <h1>Програмування</h1>
+  <div class="moving-text">Scratch</div>
+  <div class="txt">
+    <ul><b>Алгоритм</b>
+      <ul>Скінчена послідовність дій, що приводить до шуканого результату</ul>
+    </ul>
+    <ul> <b>Виконавець</b>
+      <ul>людина, машина, тварина, що знає певні команди</ul>
+    </ul>
+    <ul> <b>СКВ</b>
+      <ul>система команд виконавця всі команди, що він може виконати</ul>
+    </ul>
+    <ul> <b>Спрайт</b>
+      <ul>виконавець команд</ul>
+    </ul>
+    <ul><p>Н<sub>2</sub>0 - <b>чиста</b> <u>джерельна</u> <i>вода</i></p></ul>
+
+  </div>
+</body>
+
+</html>
